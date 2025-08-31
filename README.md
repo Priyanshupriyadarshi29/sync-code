@@ -1,4 +1,4 @@
-@"
+
 # Sync‑Code (Realtime Collaborative Code Editor)
 
 **Sync‑Code** is a real-time collaborative code editor built from scratch. It allows multiple users to edit code together, share sessions, and collaborate efficiently.
@@ -71,8 +71,4 @@ Want to contribute? Feel free to:
 ##  About
 
 Developed by **Priyanshu Priyadarshi**. Designed to offer seamless, real-time coding collaboration—perfect for pair programming, teaching, or coding sessions.
-"@ > README.md
 
-git add README.md
-git commit -m "Add formatted project README"
-git push -u origin main
