@@ -11,30 +11,21 @@ Perfect for:
 
 # 📂 Project Structure  
 
-sync-code/
-│
-├── server.js # Core backend server (Express + Socket.IO)
-├── src/ # Frontend assets
-│ ├── index.html # Main HTML file
-│ ├── css/ # Stylesheets
-│ │ └── style.css
-│ └── js/ # Frontend scripts
-│ └── client.js
-│
-├── config/ # Environment & configuration files
-│ └── default.js
-│
-├── utils/ # Helper functions
-│ └── logger.js
-│
-├── package.json # Dependencies & scripts
-├── package-lock.json # Dependency lock file
-├── .env.example # Sample environment variables
-└── README.md # Project documentation
-
-
-yaml
-Copy code
+- **server.js** – Core backend server (Express + Socket.IO)  
+- **src/** – Frontend assets  
+  - **index.html** – Main HTML file  
+  - **css/** – Stylesheets  
+    - style.css  
+  - **js/** – Frontend scripts  
+    - client.js  
+- **config/** – Environment & configuration files  
+  - default.js  
+- **utils/** – Helper functions  
+  - logger.js  
+- **package.json** – Dependencies & scripts  
+- **package-lock.json** – Dependency lock file  
+- **.env.example** – Sample environment variables  
+- **README.md** – Project documentation  
 
 ---
 
