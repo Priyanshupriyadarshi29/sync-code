@@ -43,26 +43,9 @@ Perfect for:
 - Node.js (v14+)  
 - npm  
 
-## 📥 Installation  
 
-```bash
-git clone https://github.com/Priyanshupriyadarshi29/sync-code.git
-cd sync-code
-cp .env.example .env   # configure environment
-npm install
-▶️ Running Locally
-bash
-Copy code
-npm start
-👉 App runs at http://localhost:3000 (or the port set in .env).
-
-#⚙️ Configuration
-Set values in your .env file:
-
-env
-Copy code
-PORT=3000
 #💻 Tech Stack
+
 ⚡ Node.js – Backend runtime
 
 🛠️ Express.js – Server framework
@@ -70,6 +53,7 @@ PORT=3000
 🔗 Socket.IO – Real-time communication
 
 #🧠 How It Works
+
 📝 User types code in the editor
 
 📡 Frontend sends updates to server via WebSockets
@@ -79,6 +63,7 @@ PORT=3000
 ⚡ Editors sync instantly → smooth collaboration
 
 #🤝 Contributing
+
 We welcome contributions!
 
 🍴 Fork this repository
@@ -88,4 +73,16 @@ We welcome contributions!
 💾 Commit with clear messages
 
 🚀 Push and open a Pull Request
+
+## 📥 Installation  
+
+```bash
+git clone https://github.com/Priyanshupriyadarshi29/sync-code.git
+cd sync-code
+cp .env.example .env   # configure environment
+npm install
+
+---
+
+
 
