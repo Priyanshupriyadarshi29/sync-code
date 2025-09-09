@@ -1,62 +1,77 @@
-sync-code
-A simple real-time code synchronization app built with Node.js and a minimal frontend.
+🚀 Sync-Code
 
-Useful for pair programming, live coding, and collaborative debugging.
+A real-time collaborative code synchronization app built with Node.js and a lightweight frontend.
+
+Perfect for pair programming, live coding sessions, and collaborative debugging.
 
 📂 Project Structure
 sync-code/
-├── server.js # Core backend server
-├── src/ # Frontend assets
-├── package.json # Node.js dependencies & scripts
-├── package-lock.json # Dependency lock file
-├── .env example # Sample environment variables
+├── server.js          # Core backend server
+├── src/               # Frontend assets
+├── package.json       # Node.js dependencies & scripts
+├── package-lock.json  # Dependency lock file
+├── .env.example       # Sample environment variables
 
 ⚡ Features
-🔄 Real-time code sync – collaborative editing
 
-🌐 Web interface – lightweight and easy to use
+🔄 Real-time code sync – seamless collaborative editing
 
-🔑 Environment-based config – easy to customize
+🌐 Web interface – minimal, fast, and easy to use
+
+🔑 Environment-based config – customizable setup
 
 🛠️ Getting Started
-Prerequisites
-Node.js (v14+ recommended)
+✅ Prerequisites
+
+Node.js (v14 or later recommended)
 
 npm
 
-Installation
-git clone [https://github.com/Priyanshupriyadarshi29/sync-code.git](https://github.com/Priyanshupriyadarshi29/sync-code.git)
+📥 Installation
+git clone https://github.com/Priyanshupriyadarshi29/sync-code.git
 cd sync-code
-cp ".env example" .env    # configure your environment
+cp ".env.example" .env   # configure your environment
 npm install
 
-Run Locally
+▶️ Run Locally
 npm start
 
-The app will start on http://localhost:3000 (or the port you set in .env).
+
+The app will be available at http://localhost:3000
+ (or the port you configure in .env).
 
 ⚙️ Configuration
-Set values in .env:
+
+Update .env with your settings:
 
 PORT=3000
 
-💻 Technologies Used
-Node.js: The server-side JavaScript runtime.
+💻 Tech Stack
 
-Express: A web framework for Node.js used to handle HTTP requests.
+Node.js – server-side runtime
 
-Socket.IO: A library that enables real-time, bidirectional, and event-based communication between the client and the server.
+Express.js – HTTP request handling
 
-🧠 How it Works
-The application uses WebSockets to achieve real-time synchronization. When a user types in the editor, the frontend sends a message with the updated code to the server. The server then broadcasts this change to all other connected clients, ensuring everyone's editor is instantly updated. This happens seamlessly, providing a fluid collaborative experience.
+Socket.IO – real-time, event-driven communication
+
+🧠 How It Works
+
+A user types code in the editor.
+
+The frontend sends updates to the server via WebSockets.
+
+The server broadcasts changes to all connected clients.
+
+All editors update instantly, ensuring a smooth collaborative experience.
 
 🤝 Contributing
-Contributions are welcome! If you'd like to improve this project, here's how you can help:
 
-Fork the repo: Create your own copy of the repository.
+Contributions are always welcome!
 
-Create a feature branch: Name your branch something like feature/add-new-functionality.
+Fork the repository
 
-Commit your changes: Make sure your commit messages are clear and descriptive.
+Create a feature branch (feature/your-feature-name)
 
-Open a Pull Request: Submit your changes for review.
+Commit your changes with clear messages
+
+Open a Pull Request for review
