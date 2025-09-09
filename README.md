@@ -1,80 +1,85 @@
-⚡ Sync-Code
+# ⚡️ SYNC-CODE  
 
-A real-time collaborative code synchronization app built with Node.js and a minimal frontend.
+A **real-time collaborative code synchronization app** built with **Node.js** and a **minimal frontend**.  
 
-Ideal for:
-👩‍💻 Pair Programming
-📡 Live Coding
-🐞 Collaborative Debugging
+Perfect for:  
+- 👩‍💻 **Pair Programming**  
+- 📡 **Live Coding**  
+- 🐞 **Collaborative Debugging**  
 
-📂 Project Structure
+---
+
+# 📂 Project Structure  
+
 sync-code/
-├── server.js          # Core backend server
-├── src/               # Frontend assets
-├── package.json       # Node.js dependencies & scripts
-├── package-lock.json  # Dependency lock file
-├── .env.example       # Sample environment variables
+├── server.js # Core backend server
+├── src/ # Frontend assets
+├── package.json # Node.js dependencies & scripts
+├── package-lock.json # Dependency lock file
+├── .env.example # Sample environment variables
 
-✨ Features
+yaml
+Copy code
 
-✅ Real-time Sync – instant updates across all users
-✅ Lightweight Web Interface – no extra setup required
-✅ Customizable via .env – quick and easy configuration
+---
 
-🚀 Getting Started
-Prerequisites
+# ✨ Features  
 
-Node.js (v14+)
+- 🔄 **Real-time Sync** – instant updates across all users  
+- 🌐 **Lightweight Web Interface** – no extra setup required  
+- 🔑 **Customizable via `.env`** – quick and easy configuration  
 
-npm
+---
 
-Installation
+# 🚀 Getting Started  
+
+## ✅ Prerequisites  
+- Node.js (v14+)  
+- npm  
+
+## 📥 Installation  
+
+```bash
 git clone https://github.com/Priyanshupriyadarshi29/sync-code.git
 cd sync-code
 cp .env.example .env   # configure environment
 npm install
-
-Running Locally
+▶️ Running Locally
+bash
+Copy code
 npm start
-
-
-👉 The app runs on http://localhost:3000
- (or the port set in .env).
+👉 App runs at http://localhost:3000 (or the port set in .env).
 
 ⚙️ Configuration
+Set values in your .env file:
 
-Edit your .env file:
-
+env
+Copy code
 PORT=3000
+💻 Tech Stack
+⚡ Node.js – Backend runtime
 
-🛠️ Tech Stack
+🛠️ Express.js – Server framework
 
-Node.js – Backend runtime
+🔗 Socket.IO – Real-time communication
 
-Express.js – Server framework
+🧠 How It Works
+📝 User types code in the editor
 
-Socket.IO – Real-time communication
+📡 Frontend sends updates to server via WebSockets
 
-🧩 How It Works
+🔄 Server broadcasts changes to all connected clients
 
-A user types code in the editor.
-
-The frontend sends the update to the server via WebSockets.
-
-The server broadcasts changes to all clients.
-
-Everyone’s editor syncs instantly.
-
-💡 Result: A smooth, real-time, collaborative coding experience.
+⚡ Editors sync instantly → smooth collaboration
 
 🤝 Contributing
+We welcome contributions!
 
-Contributions make this project better! 🚀
+🍴 Fork this repository
 
-Fork this repository
+🌱 Create a new branch: feature/your-feature
 
-Create a new branch: feature/your-feature
+💾 Commit with clear messages
 
-Commit with clear messages
+🚀 Push and open a Pull Request
 
-Push and open a Pull Request
