@@ -12,11 +12,25 @@ Perfect for:
 # 📂 Project Structure  
 
 sync-code/
-├── server.js # Core backend server
-├── src/ # Frontend assets
-├── package.json # Node.js dependencies & scripts
-├── package-lock.json # Dependency lock file
-├── .env.example # Sample environment variables
+│
+├── server.js
+├── src/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── client.js
+│
+├── config/
+│   └── default.js
+│
+├── utils/
+│   └── logger.js
+│
+├── package.json
+├── .env.example
+└── README.md
+
 
 yaml
 Copy code
