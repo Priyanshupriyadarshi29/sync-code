@@ -30,12 +30,8 @@ cd sync-code
 cp ".env example" .env    # configure your environment
 npm install
 
-
-
 Run Locally
 npm start
-
-
 
 The app will start on http://localhost:3000 (or the port you set in .env).
 
@@ -43,9 +39,6 @@ The app will start on http://localhost:3000 (or the port you set in .env).
 Set values in .env:
 
 PORT=3000
-
-
-(extend this list with any additional variables you add later)
 
 💻 Technologies Used
 Node.js: The server-side JavaScript runtime.
@@ -67,5 +60,3 @@ Create a feature branch: Name your branch something like feature/add-new-functio
 Commit your changes: Make sure your commit messages are clear and descriptive.
 
 Open a Pull Request: Submit your changes for review.
-
-I hope these additions make the document more helpful. Let me know if you would like me to add anything else!
