@@ -1,15 +1,9 @@
-# sync-code
+sync-code
+A simple real-time code synchronization app built with Node.js and a minimal frontend.
 
-A simple **real-time code synchronization** app built with **Node.js** and a minimal frontend.  
-Useful for **pair programming, live coding, and collaborative debugging**.
+Useful for pair programming, live coding, and collaborative debugging.
 
----
-
-
----
-
-## 📂 Project Structure
-
+📂 Project Structure
 sync-code/
 ├── server.js # Core backend server
 ├── src/ # Frontend assets
@@ -17,64 +11,61 @@ sync-code/
 ├── package-lock.json # Dependency lock file
 ├── .env example # Sample environment variables
 
+⚡ Features
+🔄 Real-time code sync – collaborative editing
 
+🌐 Web interface – lightweight and easy to use
 
+🔑 Environment-based config – easy to customize
 
----
+🛠️ Getting Started
+Prerequisites
+Node.js (v14+ recommended)
 
-## ⚡ Features
-- 🔄 **Real-time code sync** – collaborative editing
-- 🌐 **Web interface** – lightweight and easy to use
-- 🐳 **Docker support** – run anywhere with containers
-- 🔑 **Environment-based config** – easy to customize
+npm
 
----
-
-## 🛠️ Getting Started
-
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v14+ recommended)
-- [npm](https://www.npmjs.com/)
-
-
-### Installation
-
-```bash
-git clone https://github.com/Priyanshupriyadarshi29/sync-code.git
+Installation
+git clone [https://github.com/Priyanshupriyadarshi29/sync-code.git](https://github.com/Priyanshupriyadarshi29/sync-code.git)
 cd sync-code
-cp ".env example" .env   # configure your environment
+cp ".env example" .env    # configure your environment
 npm install
+
+
+
 Run Locally
-bash
-Copy code
 npm start
+
+
+
 The app will start on http://localhost:3000 (or the port you set in .env).
 
-🐳 Run with Docker
-bash
-Copy code
-docker build -t sync-code .
-docker run --env-file .env -p 3000:3000 sync-code
-Or using Docker Compose:
-
-bash
-Copy code
-docker-compose up --build
 ⚙️ Configuration
 Set values in .env:
 
-ini
-Copy code
 PORT=3000
+
+
 (extend this list with any additional variables you add later)
 
+💻 Technologies Used
+Node.js: The server-side JavaScript runtime.
+
+Express: A web framework for Node.js used to handle HTTP requests.
+
+Socket.IO: A library that enables real-time, bidirectional, and event-based communication between the client and the server.
+
+🧠 How it Works
+The application uses WebSockets to achieve real-time synchronization. When a user types in the editor, the frontend sends a message with the updated code to the server. The server then broadcasts this change to all other connected clients, ensuring everyone's editor is instantly updated. This happens seamlessly, providing a fluid collaborative experience.
+
 🤝 Contributing
-Contributions are welcome!
+Contributions are welcome! If you'd like to improve this project, here's how you can help:
 
-Fork the repo
+Fork the repo: Create your own copy of the repository.
 
-Create a feature branch
+Create a feature branch: Name your branch something like feature/add-new-functionality.
 
-Commit your changes
+Commit your changes: Make sure your commit messages are clear and descriptive.
 
-Open a Pull Request
+Open a Pull Request: Submit your changes for review.
+
+I hope these additions make the document more helpful. Let me know if you would like me to add anything else!
