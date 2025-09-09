@@ -13,23 +13,24 @@ Perfect for:
 
 sync-code/
 │
-├── server.js
-├── src/
-│   ├── index.html
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       └── client.js
+├── server.js # Core backend server (Express + Socket.IO)
+├── src/ # Frontend assets
+│ ├── index.html # Main HTML file
+│ ├── css/ # Stylesheets
+│ │ └── style.css
+│ └── js/ # Frontend scripts
+│ └── client.js
 │
-├── config/
-│   └── default.js
+├── config/ # Environment & configuration files
+│ └── default.js
 │
-├── utils/
-│   └── logger.js
+├── utils/ # Helper functions
+│ └── logger.js
 │
-├── package.json
-├── .env.example
-└── README.md
+├── package.json # Dependencies & scripts
+├── package-lock.json # Dependency lock file
+├── .env.example # Sample environment variables
+└── README.md # Project documentation
 
 
 yaml
