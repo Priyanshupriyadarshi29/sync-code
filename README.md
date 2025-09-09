@@ -56,20 +56,20 @@ Copy code
 npm start
 👉 App runs at http://localhost:3000 (or the port set in .env).
 
-⚙️ Configuration
+#⚙️ Configuration
 Set values in your .env file:
 
 env
 Copy code
 PORT=3000
-💻 Tech Stack
+#💻 Tech Stack
 ⚡ Node.js – Backend runtime
 
 🛠️ Express.js – Server framework
 
 🔗 Socket.IO – Real-time communication
 
-🧠 How It Works
+#🧠 How It Works
 📝 User types code in the editor
 
 📡 Frontend sends updates to server via WebSockets
@@ -78,7 +78,7 @@ PORT=3000
 
 ⚡ Editors sync instantly → smooth collaboration
 
-🤝 Contributing
+#🤝 Contributing
 We welcome contributions!
 
 🍴 Fork this repository
